@@ -6,7 +6,6 @@
 - PM2 (https://pm2.keymetrics.io/)
 
 ## Structure
-Below is the project structure and what are the responsibilities.
 ```
 ./bin                             # scripts
 └── index.js                      # entrypoint for the app
