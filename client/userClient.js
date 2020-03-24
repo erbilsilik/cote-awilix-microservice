@@ -9,8 +9,8 @@ http.createServer(function (req, res) {
       res.write(JSON.stringify(user));
       res.end();
     });
-  }}).listen(3000, function() {
-    console.log("server start at port 3000");
+  }}).listen(process.env.PORT || 5000, function() {
+    console.log("server start at port 5000");
 });
 
 const requester = new cote.Requester({ name: 'user responder'});
