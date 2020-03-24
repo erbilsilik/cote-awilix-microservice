@@ -13,6 +13,9 @@
     "cote": "^1.0.0",
     "mongoose": "^5.9.5"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "dev": "pm2-runtime start ecosystem.config.js --env dev"
+  },
   "devDependencies": {}
 }
