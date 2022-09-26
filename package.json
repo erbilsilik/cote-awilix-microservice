@@ -12,7 +12,7 @@
     "awilix": "^4.2.5",
     "cote": "^1.0.0",
     "mongoose": "^5.9.5",
-    "pm2": "^4.2.3"
+    "pm2": "^5.2.0"
   },
   "scripts": {
     "start": "pm2-runtime start ecosystem.config.js --env production",
